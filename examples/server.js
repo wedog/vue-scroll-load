@@ -13,7 +13,7 @@ const config = {
     pkg: {
         name: 'double'
     },
-    ip: '127.0.0.1',
+    ip: '0.0.0.0',
     cdn: '/'
 }
 
