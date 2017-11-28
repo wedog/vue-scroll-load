@@ -1,0 +1,36 @@
+{
+  "name": "vue-scroll-load",
+  "version": "1.0.0",
+  "description": "Pull up loading. Pull down refresh.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-runtime": "^6.26.0",
+    "html-webpack-plugin": "^2.30.1",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2",
+    "koa-webpack": "^1.0.0",
+    "opn": "^5.1.0",
+    "vue": "^2.5.9",
+    "vue-loader": "^13.5.0",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wedog/vue-scroll-load.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wedog/vue-scroll-load/issues"
+  },
+  "homepage": "https://github.com/wedog/vue-scroll-load#readme"
+}
