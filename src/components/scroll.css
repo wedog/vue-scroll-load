@@ -9,3 +9,32 @@
     width: 100%;
     overflow-y: auto;
 }
+.up-wrapper{
+    visibility: hidden;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2.5rem;
+    color: #A3A3A3;
+}
+.up-show{
+    visibility: visible;
+}
+.up-wrapper>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up-wrapper>div::before{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #E7E7E7;
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+.up-wrapper>div::after{
+    content: "";
+    border-bottom: 1px solid #E7E7E7;
+    flex-grow: 1;
+    margin-left: 1rem;
+}
