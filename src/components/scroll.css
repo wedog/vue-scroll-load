@@ -17,24 +17,27 @@
     line-height: 2.5rem;
     color: #A3A3A3;
 }
-.up-show{
+.up-noMore{
     visibility: visible;
 }
-.up-wrapper>div{
+.up-noMore>div{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.up-wrapper>div::before{
+.up-noMore>div::before{
     content: "";
     display: block;
     border-bottom: 1px solid #E7E7E7;
     flex-grow: 1;
     margin-right: 1rem;
 }
-.up-wrapper>div::after{
+.up-noMore>div::after{
     content: "";
     border-bottom: 1px solid #E7E7E7;
     flex-grow: 1;
     margin-left: 1rem;
+}
+.up-loading{
+    visibility: visible;
 }
